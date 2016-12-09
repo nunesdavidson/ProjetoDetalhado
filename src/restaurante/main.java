@@ -11,6 +11,7 @@ package restaurante;
  */
 import java.util.Calendar;
 import telas.Apresentacao;
+
 public class main {
 
     public static void main(String[] args) {
@@ -18,5 +19,7 @@ public class main {
     // login.setVisible(true);// abrir a tela de login.
     //}
     		Calendar c = Calendar.getInstance();
-		System.out.println("Data e Hora atual: ”+c.getTime());
+		System.out.println("Data e Hora atual:" +c.getTime());
+                
+}
 }
